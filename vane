@@ -2,6 +2,8 @@
 if not game:IsLoaded() then
     game.Loaded:Wait()
 end
+
+
 local a;
 local b = game:GetService('Players')
 local c = b.LocalPlayer or b:GetPropertyChangedSignal('LocalPlayer'):Wait() or b.LocalPlayer;
